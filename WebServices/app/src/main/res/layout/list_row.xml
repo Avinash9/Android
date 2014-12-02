@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp"
+    >
+
+
+<TextView
+    android:id="@+id/txtStateName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="U.P"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/txtCapitalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LCKNW"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@+id/txtStateName"
+        android:textSize="13sp"/>
+
+
+
+
+</RelativeLayout>
